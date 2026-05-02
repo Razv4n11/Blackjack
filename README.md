@@ -8,15 +8,10 @@ A **mobile** Blackjack game made with **Unity**, featuring **bet selection** and
 - **Bet selection** before each hand
 - **Persistent money/bankroll saved locally** (progress carries over between runs)
 
-## Download / Install (APK)
+## Download / Install
 
-A **pre-built Android APK** is included in this repository.
-
-1. Download the `.apk` from the repo
-2. Transfer it to your Android phone
-3. On Android, enable installing from unknown sources:
-   - **Settings → Security/Privacy → Install unknown apps**
-4. Open the APK and install
+Pre-built Android builds (APK) are available in **Releases**:
+https://github.com/Razv4n11/BlackJack/releases
 
 ## Getting Started (Open in Unity)
 
