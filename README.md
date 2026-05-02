@@ -1,21 +1,24 @@
-# BlackJack (Unity)
+# BlackJack (Unity) — Mobile
 
-A Blackjack game made with **Unity**, featuring **bet selection** and **locally stored money permanence** (your bankroll is saved on your device between sessions).
+A **mobile** Blackjack game made with **Unity**, featuring **bet selection** and **locally stored money permanence** (your bankroll is saved on your device between sessions).
 
 ## Features
 
-- Classic Blackjack gameplay
-- **Bet selection** before playing a hand
+- Mobile-focused Blackjack gameplay
+- **Bet selection** before each hand
 - **Persistent money/bankroll saved locally** (progress carries over between runs)
 
-## Requirements
+## Download / Install (APK)
 
-- **Unity Editor:** `6000.3.0f1` (recommended)
-- A Unity-supported OS (Windows/macOS/Linux)
+A **pre-built Android APK** is included in this repository.
 
-> If you open the project in a different Unity version, Unity may upgrade/downgrade packages and project settings.
+1. Download the `.apk` from the repo
+2. Transfer it to your Android phone
+3. On Android, enable installing from unknown sources:
+   - **Settings → Security/Privacy → Install unknown apps**
+4. Open the APK and install
 
-## Getting Started (Run the project)
+## Getting Started (Open in Unity)
 
 1. Clone the repository:
    ```bash
@@ -24,8 +27,15 @@ A Blackjack game made with **Unity**, featuring **bet selection** and **locally 
 2. Open **Unity Hub**
 3. Click **Add** → select the cloned `BlackJack` folder
 4. Open the project with **Unity 6000.3.0f1**
-5. In the Project window, open the main scene (under `Assets/Scenes/`)
+5. Open the main scene (under `Assets/Scenes/`)
 6. Press **Play**
+
+## Building for Mobile (Android/iOS)
+
+1. In Unity: **File → Build Settings**
+2. Select **Android** or **iOS**
+3. Click **Switch Platform**
+4. Configure player settings as needed, then **Build** / **Build And Run**
 
 ## Project Structure
 
